@@ -28,7 +28,7 @@ function getWeather(city) {
             output.innerHTML = `
                 <h2>Weather in ${city}</h2>
                 <p>Temperature: ${temp}°C</p>
-                <p>Description: ${description}</p>
+                <p>Note: ${description}</p>
                 <p>Humidity: ${humidity}%</p>
             `;
         })

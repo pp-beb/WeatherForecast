@@ -3,28 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather Forecast</title>
+    <title>Weather</title>
     <link rel="stylesheet" href="weather.css">
 </head>
 <body>
-    <div class="background"><h1>Weather Forecast</h1></div>
+    <div class="background"><h1>Weather</h1></div>
     <div class="cities" id="cities">
         <div class="inputDiv" id="inputDiv"> 
-            <label>Please choose the city</label><br/>
-                <select name="city" id="city">
-                    <option value="Kathmandu">Kathmandu</option>
-                    <option value="Vienna">Vienna</option>
-                    <option value="Los Angeles">Los Angeles</option>
-                    <option value="Santorini">Santorini</option>
-                    <option value="Amsterdam">Amsterdam</option>
-                    <option value="Tokyo">Tokyo</option>
-                    <option value="Delhi">Delhi</option>
-                </select>
+            <label>Please choose the city:</label><br/>
+            <select name="city" id="city">
+                <option value="Kathmandu">Kathmandu</option>
+                <option value="Vienna">Vienna</option>
+                <option value="Los Angeles">Los Angeles</option>
+                <option value="Santorini">Santorini</option>
+                <option value="Amsterdam">Amsterdam</option>
+                <option value="Tokyo">Tokyo</option>
+                <option value="Delhi">Delhi</option>
+            </select>
         </div>
-    
+    </div>
+    <br/><br/><br/>
+    <div class="outputDiv" id="outputDiv">
         
     </div>
-    <div class="outputDiv" id="outputDiv"></div>
     <script src="weather.js"></script>
 </body>
 </html>

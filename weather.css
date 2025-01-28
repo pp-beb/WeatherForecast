@@ -24,7 +24,7 @@ body{
 
 #city{
     background: transparent;
-    color: rgb(74, 74, 27);
+    color: rgb(85, 54, 88);
 }
 
 .outputDiv{
@@ -32,4 +32,17 @@ body{
     width: 100%;
     text-align: center;
     padding-top: 20vb;
+    color: rgb(93, 64, 64);
+    position: relative;
+    width: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    border:solid #ab99d8  3px;
+    border-radius: 10%;
+}
+
+@media (max-width:768px) {
+    .outputDiv{
+        width: 80%;
+    }
 }
