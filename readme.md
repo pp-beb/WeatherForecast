@@ -1,4 +1,4 @@
-# App
+# Weather App
 Basic Web-App that shows weather information of different cities.
 
 ## More
